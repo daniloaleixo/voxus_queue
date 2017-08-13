@@ -60,7 +60,7 @@ class QueueImplementation:
 myQueue = QueueImplementation()
 
 # main loop
-
+#
 while(True):
 	print '\n-------------------\n'
 	myQueue.printQueues()
