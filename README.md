@@ -41,7 +41,7 @@ def dequeue_back(self):
 ```
 As funções de pop(0) e append do python são implementados em tempo constante, assim podemos observar que no pior caso para uma chamada da função de push, como precisamos fazer o dequeue dos valores maiores que o novo valor a ser inserido, o algoritmo consome tempo O(m), onde m <= n e representa o tamanho da fila min_queue.
 
-Porém se analisarmos duas operações em seguida é impossível que as duas sejam theta(m), pois cada um dos m elementos será inserido e removido apenas uma vez, o que nos leva a concluir que uma operação de push que remova m - k elementos, será seguida de uma interação que removerá no máximo k elementos, portanto em m operaçes de push teremos no máximo m pops e finalmente teremos que o algoritmo de push tem um custo amortizado de O(1).
+Porém se analisarmos duas operações em seguida é impossível que as duas sejam theta(m), pois cada um dos m elementos será inserido e removido apenas uma vez, o que nos leva a concluir que uma operação de push que remova m - k elementos, será seguida de uma interação que removerá no máximo k elementos, portanto em m operaçes de push teremos no máximo m pops e finalmente concluimos que o algoritmo de push tem um custo amortizado de O(1).
 
 ### Min
 
