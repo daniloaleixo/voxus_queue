@@ -15,6 +15,12 @@ python filas.py
 
 ## Análise do algoritmo
 
+### Estratégia do algoritmo
+
+O algoritmo para a implementação da fila usa como estratégia o fato de possuir duas filas: a fila que vamos guardar as informaçoes de fato e uma fila auxiliar que vamos usar para guardar os valores dos minimos.
+
+A ideia é que nossa fila auxiliar vai manter sempre o minimo global acessivel alem de guardar outros minimos locais a medida que elementos são inseridos na fila principal.
+
 ### Push
 ```python
 def push(self, new_value):
