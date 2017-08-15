@@ -20,7 +20,7 @@ O algoritmo para a implementação da fila usa como estratégia o fato de possui
 A ideia é que nossa fila auxiliar vai manter sempre o minimo global acessivel alem de guardar outros minimos locais a medida que elementos são inseridos na fila principal.
 
 
-## Análise do algoritmo
+## Análise de tempo do algoritmo
 
 ### Push
 ```python
